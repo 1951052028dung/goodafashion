@@ -434,7 +434,7 @@ ul.sub>li>a {
 
 .img-product>a:hover img {
     transform: scale(1.1);
-    transition: transform ease-in 1s;
+    transition: transform 1s;
 }
 
 .product-info>a {
