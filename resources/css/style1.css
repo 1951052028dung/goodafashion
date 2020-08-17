@@ -496,3 +496,47 @@ p.price-product span.price {
     font-weight: bold;
     color: rgb(248, 66, 66);
 }
+
+
+/*----------------------NEW-TREND--------------*/
+
+.news-trend-box {
+    padding: 0px 30px;
+}
+
+.news {
+    border-radius: 20px;
+    width: 100%px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.news-link img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 0px 0px;
+}
+
+a.news-link {
+    text-decoration: none;
+}
+
+.news-content {
+    padding: 50px 20px;
+    font-size: 18px;
+    color: rgb(44, 40, 240);
+}
+
+a.news-link:hover .news-content {
+    color: red;
+}
+
+.image-news {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+a.news-link:hover .image-news img {
+    transform: scale(1.1);
+    transition: 1s;
+}
