@@ -491,7 +491,7 @@ a.input-bag:hover {
     padding: 5px 10px 0px 10px;
 }
 
-.product-saleoff p.price-product span.price-new {
+p.price-product span.price {
     font-size: 18px;
     font-weight: bold;
     color: rgb(248, 66, 66);
