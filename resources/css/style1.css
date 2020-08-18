@@ -218,14 +218,20 @@ li.no1 {
 }
 
 .login-button a {
+    width: 100%;
     color: gray;
+    padding: 10px 5px;
+}
+
+.bag a {
+    width: 100%;
+    padding: 10px 0px;
 }
 
 .bag a,
 .login-button a {
     border-radius: 10px;
     background-color: rgb(117, 201, 117);
-    padding: 10px 5px;
     color: white;
 }
 
@@ -555,7 +561,7 @@ a.news-link:hover .image-news img {
 }
 
 .logo-footer {
-    padding: 0px 20px;
+    padding: 0px 100px;
 }
 
 .logo-footer img {
@@ -609,7 +615,7 @@ a.news-link:hover .image-news img {
 }
 
 .linked {
-    padding: 20px 0px;
+    padding: 20px 30px;
 }
 
 .linked a {
