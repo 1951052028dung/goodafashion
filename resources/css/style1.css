@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 /*---------------------------*/
 
@@ -145,11 +146,15 @@ li.no1 {
     margin: 25px 10px;
 }
 
+.logo img {
+    width: 100%;
+}
+
 
 /*--------------SEARCH-BAR------------------*/
 
 .search-bar {
-    padding: 50px 20px;
+    padding: 50px 10px 50px 50px;
 }
 
 .search-bar .trend-search {
@@ -162,8 +167,8 @@ li.no1 {
     color: blue;
 }
 
-.search-form {
-    display: flex;
+.form {
+    width: 100%;
 }
 
 .search-input input {
@@ -181,7 +186,7 @@ li.no1 {
 
 .button-search>button {
     height: 25px;
-    width: 60px;
+    width: 100%;
     background-color: rgb(182, 227, 245);
     border: 1px solid black;
 }
@@ -288,11 +293,6 @@ li.no1 {
     /*border: 1px red solid;*/
     width: 25%;
     background-color: white;
-}
-
-.icons {
-    position: absolute;
-    left: 420px
 }
 
 .fas {
@@ -406,7 +406,7 @@ ul.sub>li>a {
 }
 
 
-/*---------------PRODUCT-HOT---------------*/
+/*---------------PRODUCT---------------*/
 
 .product-wrapper {
     width: 100%;
@@ -415,6 +415,7 @@ ul.sub>li>a {
 
 .product-box {
     padding: 0px 20px;
+    width: 210px;
 }
 
 div.product-info {
@@ -500,21 +501,23 @@ p.price-product span.price {
 
 /*----------------------NEW-TREND--------------*/
 
+.news-trend {
+    padding: 0px 0px 50px 0px;
+}
+
 .news-trend-box {
     padding: 0px 30px;
 }
 
 .news {
     border-radius: 20px;
-    width: 100%px;
-    padding: 0px;
+    width: 100%;
     background-color: #fff;
 }
 
 .news-link img {
     width: 100%;
     border-radius: 20px;
-    padding: 0px 0px;
 }
 
 a.news-link {
@@ -522,7 +525,7 @@ a.news-link {
 }
 
 .news-content {
-    padding: 50px 20px;
+    padding: 20px 20px;
     font-size: 18px;
     color: rgb(44, 40, 240);
 }
@@ -539,4 +542,99 @@ a.news-link:hover .news-content {
 a.news-link:hover .image-news img {
     transform: scale(1.1);
     transition: 1s;
+}
+
+
+/*-------------FOOTER------------------*/
+
+.footer-wrap {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.logo-footer {
+    padding: 0px 20px;
+}
+
+.logo-footer img {
+    width: 40%;
+}
+
+.info-content {
+    padding: 0px 20px;
+}
+
+.footer-wrap h2 {
+    padding: 10px 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+.info-content p {
+    padding: 10px 0px
+}
+
+.email-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.email-info a:hover {
+    color: red;
+}
+
+.footer-link {
+    padding: 0px 80px
+}
+
+.footer-link ul {
+    padding: 20px 0px
+}
+
+.footer-link ul li {
+    list-style-type: disc;
+    padding: 5px 0px;
+}
+
+.footer-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link ul li a:hover {
+    color: lightblue;
+}
+
+.linked {
+    padding: 20px 0px;
+}
+
+.linked a {
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.twitter {
+    color: #00B6F1;
+}
+
+.instagram {
+    color: #C32AA3;
+}
+
+.youtube {
+    color: #FF0000;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 50px;
 }
